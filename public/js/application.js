@@ -1,8 +1,8 @@
 function addNews(){
-  $.getJSON( "js/tweets.json", function(news) {
-    for ( var i = start; i < end; i++ ) {
+  $.getJSON( "js/news.json", function(news) {
+    for ( var i = 0; i < news.length; i++ ) {
       var newItem = Mustache.render($('#news-item').html(), news[i]);
-      $(newItem).appendTo('#news-item');
+      $(newItem).appendTo('#news-container');
     }
   });
 }
