@@ -6,7 +6,3 @@ set :session_secret, 'super secret'
 use Rack::Flash
 set :partial_template_engine, :erb
 require './controllers/application'
-require './controllers/contact'
-require './controllers/events'
-require './controllers/news'
-require './controllers/program'

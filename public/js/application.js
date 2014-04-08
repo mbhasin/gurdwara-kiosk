@@ -28,8 +28,24 @@ function addProgram(){
   });
 }
 
+function changeActiveButton(){
+  $('.nav-stacked a').click(function(event){
+    var buttonText = $(this).text().toLowerCase();
+    if(buttonText === "exit"){return};
+    event.preventDefault();
+    $('.content').load('fragments/' + buttonText + '.html',function(){
+      addNews();
+      addEvents();
+      addProgram();
+    });
+    $('.nav-stacked a').removeClass('active');
+    $(this).addClass('active');
+  });
+}
+
 $(function () {
   addNews();
   addEvents();
   addProgram();
+  changeActiveButton();
 });
