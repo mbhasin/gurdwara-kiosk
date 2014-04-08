@@ -20,4 +20,9 @@ describe "navigation" do
     visit '/contact'
     expect(page).to have_content 'Princes Street'
   end
+
+  it "should display the daily page" do
+    visit '/daily'
+    expect(page).to have_content 'Daily'
+  end
 end
