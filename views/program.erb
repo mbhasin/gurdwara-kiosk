@@ -1,0 +1,17 @@
+<div class="wrapper">
+  <%= partial :side_nav_bar %>
+  <div class="content">
+    <div id="title">Daily & Weekly Program</div>
+    <div class="monFriAM">Morning (Mon-Fri)</div><br>
+    <div class="monFriPM">Evening (Mon-Fri)</div><br>
+    <div>Weekly Program</div>
+    <div class="weds">Wednesday</div><br>
+    <div class="fri">Friday</div><br>
+    <div class="sat">Saturday</div><br>
+    <div class="sun">Sunday</div><br>
+    <template class="daily-item">
+      <div class="prog">{{ prog }}</div>
+      <div class="time">{{ time }}</div>
+    </template>
+  </div>
+</div>

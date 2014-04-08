@@ -1,0 +1,18 @@
+body{
+}
+
+.wrapper{
+  width: 700px;
+  margin: 50px auto;
+}
+
+.nav-bar{
+  float: left;
+  width: 200px;
+  position:fixed;
+}
+
+.content{
+  float: right;
+  width: 400px;
+}
