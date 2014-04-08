@@ -1,73 +1,15 @@
 <%= partial :side_nav_bar %>
 <div id="daily-container">
   <div id="title">Daily Program</div>
-  <div>Morning (Mon-Fri)</div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog">Parkaash</div><div class="time">04:45 – 05:00</div></div>
-  <div class="row"><div class="prog">Nitnem of Panj Bania</div><div class="time">05:20 – 06:20</div></div>
-  <div class="row"><div class="prog">Ardaas &amp; Hukhamnama</div><div class="time">06:20 – 06:45</div></div>
-  <div class="row"><div class="prog">Asa Di Vaar</div><div class="time">07:00 – 08:30</div></div>
-  <div class="row"><div class="prog">Sri Sukhmani Sahib Paath</div><div class="time">08:30 – 09:30</div></div>
-  <div class="row"><div class="prog">Ardaas &amp; Hukamnama</div><div class="time">09:30 – 09:40</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-  <div class="row"><div class="prog"></div><div class="time">Time</div></div>
-
-The Evening program is as follows (Mon – Thu):
-
-Siri Rehraas Sahib Paath - 5:30 pm – 6:00 pm
-
-Gurbani Kirtan - 6:00 pm – 6:25 pm
-
-Larivaarh Katha of Siri Guru Granth Sahib Ji - 6:25 pm – 6:50 pm
-
-Ardaas, Hukhamnama & Sukhasan - 6:50 pm – 7:00 pm
-
-The weekly program is as follows:
-
-On Wednesday:
-
-Youth Evening Kirtan Darbaar – 6:15 pm – 6:50 pm
-
-On Friday:
-
-Arambh of Siri Akhand Paat – 10:00 am
-
-Gurbani Santhia – 7:00 – 9:00 pm
-
-On Saturday:
- 
-Keertan Class – 5:00 pm – 7:00 pm
- 
-Rehraas Sahib – 5:30 pm – 6:00 pm
-
-Q & A Session – 6:00 pm – 8:00 pm (also broadcasted on Sangat TV)
-
-Evening Kirtan – 8:00 pm – 9:30 pm
-
-On Sunday:
-
-Bhog of Siri Akhand Paath – 9:15 am – 10:30 am
-
-Gurbani Kirtan – 10:30 am – 12:00 pm
-
-Gurbani Veechaar & Kirtan by Youth – 12:00 pm – 1:00 pm
-
-End of Divaan – 1:00 pm
-
-Panjabi Classes –   1:00 pm – 2:15 pm
-
-Siri Rehraas Sahib – 6:00 pm – 7:15 pm
+  <div class="monFriAM">Morning (Mon-Fri)</div><br>
+  <div class="monFriPM">Evening (Mon-Fri)</div><br>
+  <div>Weekly Program</div>
+  <div class="weds">Wednesday</div><br>
+  <div class="fri">Friday</div><br>
+  <div class="sat">Saturday</div><br>
+  <div class="sun">Sunday</div><br>
+  <template class="daily-item">
+    <div class="prog">{{ prog }}</div>
+    <div class="time">{{ time }}</div>
+  </template>
 </div>
