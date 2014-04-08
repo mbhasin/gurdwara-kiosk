@@ -7,6 +7,16 @@ function addNews(){
   });
 }
 
+function addEvents(){
+  $.getJSON( "js/events.json", function(events) {
+    for ( var i = 0; i < events.length; i++ ) {
+      var newItem = Mustache.render($('#events-item').html(), events[i]);
+      $(newItem).appendTo('#events-container');
+    }
+  });
+}
+
 $(function () {
   addNews();
+  addEvents();
 });
