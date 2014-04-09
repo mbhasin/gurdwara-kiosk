@@ -1,7 +1,13 @@
-<div id="title">News</div>
-<div id="all-news"></div>
+<header><h2>News</h2></header>
+<div class="all-news"></div>
 <template id="news-item">
-  <div class="title">{{ title }}</div>
-  <div class="date">{{ day }} {{ date }} {{ month }} {{ year }}</div>
+  <h4>{{ title }}</h4>
+  <div class="release-date">
+    <span class="day">{{ day }}</span>
+    <span class="date">{{ date }}</span>
+    <span class="month">{{ month }}</span>
+    <span class="year">{{ year }}</span>
+  </div>
   <div class="report">{{{ report }}}</div>
+  <br clear="all">
 </template>

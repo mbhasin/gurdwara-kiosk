@@ -1,6 +1,12 @@
-<div id="events-container">Events</div>
+<header><h2>Events</h2></header>
 <template id="events-item">
-  <div class="title">{{ title }}</div>
-  <div class="date">{{ day }} {{ date }} {{ month }} {{ year }}</div>
+  <h4>{{ title }}</h4>
+  <div class="release-date">
+    <span class="day">{{ day }}</span>
+    <span class="date">{{ date }}</span>
+    <span class="month">{{ month }}</span>
+    <span class="year">{{ year }}</span>
+  </div>
   <div class="report">{{{ event-details }}}</div>
+  <br clear="all">
 </template>

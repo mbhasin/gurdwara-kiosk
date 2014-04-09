@@ -1,42 +1,50 @@
 [
   {
-    "title": "International AKJ Smagam Akhand Sri Paat Sahib",
-    "day": "Monday",
+    "title": "International AKJ Smagam - Akhand Sri Paat Sahib",
+    "day": "MON",
     "date": "14",
     "month": "APR",
     "year": "2014",
-    "event-details": "Sri Akhand Paat Sahib Arambh at 10am, Bhog on Wednesday 16th April 2014 at 5pm followed by Rehras Sahib and Akhand Kirtan until 9pm"
+    "event-details": "<span class='col-md-6'>Sri Akhand Paat Sahib Arambh</span><span class='col-md-4'>10:00</span>"
+  },
+  {
+    "title": "International AKJ Smagam - Akhand Sri Paat Sahib",
+    "day": "WED",
+    "date": "16",
+    "month": "APR",
+    "year": "2014",
+    "event-details": "<span class='col-md-6'>Sri Akhand Paat Sahib Bhog</span><span class='col-md-4'>17:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>until 21:00</span>"
   },
   {
     "title": "International AKJ Smagam Day 4",
-    "day": "Thursday",
+    "day": "THU",
     "date": "17",
     "month": "APR",
     "year": "2014",
-    "event-details": "Asa Di Var Kirtan 6am - 10am | Rehras Sahib and Akhand Kirtan 5:30pm - 9pm"
+    "event-details": "<span class='col-md-6'>Asa Di Var Kirtan</span><span class='col-md-4'>06:00 - 10:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>17:30 - 21:00</span>"
   },
   {
     "title": "International AKJ Smagam Day 5",
-    "day": "Friday",
+    "day": "FRI",
     "date": "18",
     "month": "APR",
     "year": "2014",
-    "event-details": "Asa Di Var Kirtan 6am - 10am | Rehras Sahib and Akhand Kirtan 5:30pm - 9pm"
+    "event-details": "<span class='col-md-6'>Asa Di Var Kirtan</span><span class='col-md-4'>06:00 - 10:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>17:30 - 21:00</span>"
   },
   {
     "title": "International AKJ Smagam Day 6",
-    "day": "Saturday",
+    "day": "SAT",
     "date": "19",
     "month": "APR",
     "year": "2014",
-    "event-details": "Asa Di Var Kirtan 6am - 10am | Rehras Sahib and Akhand Kirtan 5:30pm - Midnight"
+    "event-details": "<span class='col-md-6'>Asa Di Var Kirtan</span><span class='col-md-4'>06:00 - 10:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>17:30 - 00:00</span>"
   },
   {
     "title": "International AKJ Smagam Day 7",
-    "day": "Sunday",
+    "day": "SUN",
     "date": "20",
     "month": "APR",
     "year": "2014",
-    "event-details": "Morning Kirtan 11:30am - 1:30pm | Rehansbhai Kirtan 7pm - 5am"
+    "event-details": "<span class='col-md-6'>Morning Kirtan</span><span class='col-md-4'>11:30 - 13:30</span><br><span class='col-md-6'>Rehansbhai Kirtan</span><span class='col-md-4'>19:00 - 5:00</span>"
   }
 ]
