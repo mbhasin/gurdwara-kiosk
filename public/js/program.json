@@ -1,0 +1,37 @@
+{
+"monFriAM": [
+  { "prog": "Parkaash",					                  "time": "04:45 – 05:00" },
+  { "prog": "Nitnem of Panj Bania",	              "time": "05:20 – 06:20" },
+  { "prog": "Ardaas & Hukhamnama",	              "time": "06:20 – 06:45" },
+  { "prog": "Asa Di Vaar",                        "time": "07:00 – 08:30" },
+  { "prog": "Sri Sukhmani Sahib Paath",           "time": "08:30 – 09:30" },
+  { "prog": "Ardaas & Hukamnama",                 "time": "09:30 – 09:40" }
+],
+"monFriPM": [
+  { "prog": "Siri Rehraas Sahib Paath",           "time": "17:30 – 18:00" },
+  { "prog": "Gurbani Kirtan",                     "time": "18:00 – 18:25" },
+  { "prog": "Katha",                              "time": "18:25 – 18:50" },
+  { "prog": "Ardaas, Hukhamnama & Sukhasan",      "time": "18:50 – 19:00" }
+],
+"weds": [
+  { "prog": "Youth Evening Kirtan Darbaar",       "time": "18:15 – 18:50" }
+],
+"fri": [
+  { "prog": "Arambh of Siri Akhand Paat",         "time": "10:00" },
+  { "prog": "Gurbani Santhia",                    "time": "19:00 – 21:00" }
+],
+"sat": [
+  { "prog": "Keertan Class",                      "time": "17:00 – 19:00" },
+  { "prog": "Rehraas Sahib",                      "time": "17:30 – 18:00" },
+  { "prog": "Q & A Session",                      "time": "18:00 – 20:00" },
+  { "prog": "Evening Kirtan",                     "time": "20:00 – 21:30" }
+],
+"sun": [
+  { "prog": "Bhog of Siri Akhand Paath",          "time": "09:15 – 10:30" },
+  { "prog": "Gurbani Kirtan",                     "time": "10:30 – 12:00" },
+  { "prog": "Gurbani Veechaar & Kirtan by Youth", "time": "12:00 – 13:00" },
+  { "prog": "End of Divaan",                      "time": "13:00" },
+  { "prog": "Panjabi Classes",                    "time": "13:00 – 14:15" },
+  { "prog": "Siri Rehraas Sahib",                 "time": "18:00 – 19:15" }
+]
+}
