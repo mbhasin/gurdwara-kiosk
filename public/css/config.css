@@ -1,4 +1,16 @@
 body{
+  background-image: url(../images/bkgrnd.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+}
+
+.jumbotron{
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+.jumbotron div{
+  height: 672px;
 }
 
 .wrapper{
@@ -16,6 +28,8 @@ body{
   float: right;
   width: 400px;
   margin-bottom: 50px;
+  background-color: hsla(100, 100%, 100%, 0.8);
+  back
 }
 
 header{
@@ -41,6 +55,11 @@ header{
   font-weight: bold;
   text-align: center;
   width: 40px;
+}
+
+.btn-group-vertical{
+  padding-left: 78px;
+  padding-right: 79px;
 }
 
 .day{
