@@ -12,5 +12,12 @@
     "option2": "Guru Amar Das Ji",
     "option3": "Guru Nanak Dev Ji",
     "correct": "Guru Gobind Singh Ji"
+  },
+  {
+    "question": "Who was the eldest Sahibzada (Son) of Guru Gobind Singh Ji?",
+    "option1": "Baba Fateh Singh Ji",
+    "option2": "Baba Zorawar Singh Ji",
+    "option3": "Baba Jujhar Singh Ji",
+    "correct": "Baba Ajit Singh Ji"
   }
 ]
