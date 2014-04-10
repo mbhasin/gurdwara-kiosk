@@ -1,1 +1,14 @@
-hello world!
+<h3>Question <span class="q-no">1</span>.</h3>
+<a class="test" href="#">test</a>
+<template class="q-template">
+<h3>{{ question }}</h3>
+<% options = [
+  "<a href='#' class='btn btn-default btn-lg s-option'>{{ option1 }}</a>",
+  "<a href='#' class='btn btn-default btn-lg s-option'>{{ option2 }}</a>",
+  "<a href='#' class='btn btn-default btn-lg s-option'>{{ option3 }}</a>",
+  "<a href='#' class='btn btn-default btn-lg s-option'>{{ correct }}</a>"
+].shuffle %>
+<div class="btn-group-vertical"><% options.each do |option| %>
+  <%= option %>
+<% end %></div>
+</template>
