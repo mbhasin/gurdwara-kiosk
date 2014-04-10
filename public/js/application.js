@@ -1,5 +1,5 @@
 function addNews(){
-  $.getJSON( "js/news.json", function(data) {
+  $.getJSON( "json/news.json", function(data) {
     for ( var i = 0; i < data.length; i++ ) {
       var newItem = Mustache.render($('#news-item').html(), data[i]);
       $(newItem).prependTo('.all-news').slideDown();
@@ -8,7 +8,7 @@ function addNews(){
 }
 
 function addEvents(){
-  $.getJSON( "js/events.json", function(data) {
+  $.getJSON( "json/events.json", function(data) {
     for ( var i = 0; i < data.length; i++ ) {
       var newItem = Mustache.render($('#events-item').html(), data[i]);
       $(newItem).appendTo('.content').slideDown();
@@ -17,7 +17,7 @@ function addEvents(){
 }
 
 function addProgram(){
-  $.getJSON( "js/program.json", function(data) {
+  $.getJSON( "json/program.json", function(data) {
     var programs = ["monFriAM","monFriPM","weds","fri","sat","sun"]
     $(programs).each(function(index, element){
       for ( var i = 0; i < data[element].length; i++ ) {
