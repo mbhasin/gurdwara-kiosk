@@ -26,6 +26,10 @@ get '/program' do
   erb :program
 end
 
+get '/museum' do
+  erb :museum
+end
+
 #etiquette
 
 get '/etiquette-general' do
