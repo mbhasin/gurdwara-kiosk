@@ -1,7 +1,5 @@
 body{
-  background-image: url(../images/bkgrnd.png);
-  background-attachment: fixed;
-  background-repeat: no-repeat; 
+  background: url(../images/bkgrnd.png) fixed no-repeat;
 }
 
 .jumbotron{

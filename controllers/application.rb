@@ -30,6 +30,10 @@ get '/museum' do
   erb :museum
 end
 
+get '/settings' do
+  File.read(File.join('public', 'settings.xml'))
+end
+
 #etiquette
 
 get '/etiquette-general' do
