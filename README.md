@@ -1,5 +1,7 @@
 Gurdwara-Kiosk
 ---
+![](screenshot.png?raw=true)
+
 This Sinatra app has been designed to be displayed on an
 iPad Kiosk app to display information of a Gurdwara (Sikh
 place of worship) to the Sangat (congregation) and wider
