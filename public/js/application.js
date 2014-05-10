@@ -1,17 +1,8 @@
-function addNews(){
-  $.getJSON( "json/news.json", function(data) {
+function addNewsOrEvents(pathname, template, container){
+  $.getJSON( pathname, function(data) {
     for ( var i = 0; i < data.length; i++ ) {
-      var newItem = Mustache.render($('#news-item').html(), data[i]);
-      $(newItem).prependTo('.all-news').slideDown();
-    }
-  });
-}
-
-function addEvents(){
-  $.getJSON( "json/events.json", function(data) {
-    for ( var i = 0; i < data.length; i++ ) {
-      var newItem = Mustache.render($('#events-item').html(), data[i]);
-      $(newItem).appendTo('.content').slideDown();
+      var newItem = Mustache.render($(template).html(), data[i]);
+      $(newItem).prependTo(container).slideDown();
     }
   });
 }
@@ -29,7 +20,9 @@ function addProgram(){
 }
 
 $(function () {
-  addNews();
-  addEvents();
+  // addNews();
+  // addEvents();
+  addNewsOrEvents("json/news.json",'#news-item','.all-news');
+  addNewsOrEvents("json/events.json",'#events-item','.content');
   addProgram();
 });
