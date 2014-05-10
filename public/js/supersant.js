@@ -18,7 +18,7 @@ function checkAnswer(){
     var answer = $(this).text();
     var question_number = $('.q-no').text()-1;
     $.getJSON( "json/supersant.json", function(data) {
-      var correct = data[question_number].correct
+      var correct = data[question_number].correct;
       if(answer === correct){
         $('.q-no').html(question_number+2);
         getQuestion(question_number+1);

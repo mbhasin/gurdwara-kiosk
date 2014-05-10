@@ -1,4 +1,4 @@
-Gurdwara-Kiosk
+Gurdwara-Kiosk [![Code Climate](https://codeclimate.com/github/Kesrinishaan/gurdwara-kiosk.png)](https://codeclimate.com/github/Kesrinishaan/gurdwara-kiosk)
 ---
 ![](screenshot.png?raw=true)
 
