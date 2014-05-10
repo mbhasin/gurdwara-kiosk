@@ -9,7 +9,7 @@ function addNewsOrEvents(pathname, template, container){
 
 function addProgram(){
   $.getJSON( "json/program.json", function(data) {
-    var programs = ["monFriAM","monFriPM","weds","fri","sat","sun"]
+    var programs = ["monFriAM","monFriPM","weds","fri","sat","sun"];
     $(programs).each(function(index, element){
       for ( var i = 0; i < data[element].length; i++ ) {
         var newItem = Mustache.render($('.daily-item').html(), data[element][i]);
@@ -20,8 +20,6 @@ function addProgram(){
 }
 
 $(function () {
-  // addNews();
-  // addEvents();
   addNewsOrEvents("json/news.json",'#news-item','.all-news');
   addNewsOrEvents("json/events.json",'#events-item','.content');
   addProgram();
