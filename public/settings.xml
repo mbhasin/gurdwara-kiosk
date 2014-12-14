@@ -4,16 +4,16 @@
 <dict>
 	<key>kioskSettings</key>
 	<array>
-	
+
 	<!--Compatible with Kiosk Pro Plus, updated March 20, 2014, more information available at http://www.kioskproapp.com -->
-		
+
 	<!--Before making changes to this .xml file please note the following:
 		1. Do not add spaces or line breaks before <?xml version="1.0" encoding="UTF-8"?> at the top of the file.
-		2. Any values with the tags <integer> or <real> cannot be left blank; they must have an entry. 
+		2. Any values with the tags <integer> or <real> cannot be left blank; they must have an entry.
 		3. If you do not wish to control a specific setting remotely, you can delete the entire entry from (and including) the opening <dict> tag to (and including) the closing </dict> tag.
 		4. Ampersands ('&') are a reserved character in XML. If your url uses one, you will need to instead use the unit code "&amp;" -->
 
-		
+
 		<!--Settings Menu-->
 		<!--Show Settings In-App: 0 = On App Launch, 1 = Never, 2 = On Touch Gesture and Passcode-->
 		<dict>
@@ -36,9 +36,9 @@
 		<!--Homepage-->
 		<dict>
 			<key>Key</key><string>homePage</string>
-			<key>Value</key><string>http://188.226.219.216:9000/</string>
+			<key>Value</key><string>http://gurdwara-kiosk.ikapps.io</string>
 		</dict>
-		
+
 
 		<!--Display-->
 		<!--Site Version: 0 = iPad, 1 = Desktop, 2 = Custom Kiosk Pro-->
@@ -107,7 +107,7 @@
 			<key>Key</key><string>pageReloadBackgroundColor</string>
 			<key>Value</key><string>255,255,255</string>
 		</dict>
-			
+
 
 		<!--Navigation-->
 		<!--Allowed Domains-->
@@ -148,8 +148,8 @@
 			<key>Key</key><string>accessJS_API</string>
 			<key>Value</key><integer>1</integer>
 		</dict>
-		
-		
+
+
 		<!--Timer Settings-->
 		<!--Idle Time Limit (seconds)-->
 		<dict>
@@ -176,8 +176,8 @@
 			<key>Key</key><string>pageLoadTime</string>
 			<key>Value</key><string>30</string>
 		</dict>
-		
-		
+
+
 		<!--Visitor Management-->
 		<!--Activation Mode-->
 		<dict>
@@ -200,15 +200,15 @@
 		<!--Enable-->
 		<dict>
 			<key>Key</key><string>sv_screenVideoEnabled</string>
-			<key>Value</key><true/>
+			<key>Value</key><false/>
 		</dict>
 		<!--Video File Location-->
 		<dict>
 			<key>Key</key><string>screen.m4v</string>
 			<key>Value</key><string></string>
 		</dict>
-		
-		
+
+
 		<!--Custom Bottom Navigation Bar-->
 		<!--Standard Icon Color (0 = Red, 1 = Yellow, 2 = Green, 3 = Blue, 4 = Light Grey, 5 = Dark Grey, 6 = Black, 7 = White)-->
 		<dict>
@@ -296,7 +296,7 @@
 						<key>Key</key><string>clLink6</string>
 						<key>Value</key><string>www.kioskproapp.com/demos/horizontalscroll/</string>
 					</dict>
-		
+
 
 		<!--PDF Display-->
 		<!--Show Thumbnails-->
@@ -308,12 +308,12 @@
 		<dict>
 			<key>Key</key><string>pdfShowPageNumbers</string>
 			<key>Value</key><true/>
-		</dict>	
+		</dict>
 		<!--Disable Zoom for PDFs-->
 		<dict>
 			<key>Key</key><string>pdfDisableZoom</string>
 			<key>Value</key><true/>
-		</dict>	
+		</dict>
 		<!--Page Transition Style: 0 = Scroll, 1 = Page Turn, 2 = Hyperlink Only-->
 		<dict>
 			<key>Key</key><string>pdfScrollingType</string>
@@ -328,8 +328,8 @@
 		<dict>
 			<key>Key</key><string>pdfBackgroundImageFile</string>
 			<key>Value</key><string>blue-gray.png</string>
-		</dict>		
-		
+		</dict>
+
 
 		<!--Internet Access-->
 		<!--Detect Connection Errors-->
@@ -343,7 +343,7 @@
 			<key>Value</key><string></string>
 		</dict>
 
-		
+
 		<!--Memory Settings-->
 		<!--Clear Cache-->
 		<dict>
@@ -361,13 +361,13 @@
 			<key>Value</key><false/>
 		</dict>
 
-	
+
 		<!--Printing-->
 		<!--AirPrint-->
 		<dict>
 			<key>Key</key><string>printEnabled</string>
 			<key>Value</key><false/>
-		</dict>		
+		</dict>
 		<!--Show AirPrint Icon-->
 		<dict>
 			<key>Key</key><string>showPrintIcon</string>
@@ -382,8 +382,8 @@
 		<dict>
 			<key>Key</key><string>airPrint_PrintInfoOutputType</string>
 			<key>Value</key><real>0.0</real>
-		</dict>	
-		
+		</dict>
+
 
 		<!--Remote Settings Control-->
 		<!--Enable-->
@@ -394,7 +394,7 @@
 		<!--XML File Location-->
 		<dict>
 			<key>Key</key><string>externalSettingsFile</string>
-			<key>Value</key><string>http://188.226.219.216:9000/settings</string>
+      <key>Value</key><string></string>
 		</dict>
 		<!--Update Period (minutes)-->
 		<dict>
@@ -419,8 +419,8 @@
 			<key>Key</key><string>localContentUpdatePeriod</string>
 			<key>Value</key><string></string>
 		</dict>
-		
-		
+
+
 		<!--Dropbox Synchronization (Note: Dropbox accounts cannot be linked to Kiosk Pro remotely. This must be done physically from the iPad)-->
 		<!--Enable Dropbox-->
 		<dict>
@@ -438,8 +438,8 @@
 					<key>Key</key><string>dropboxRestrictedListOfPaths</string>
 					<key>Value</key><string></string>
 				</dict>
-		
-		
+
+
 		<!--Remote Variable Monitoring-->
 		<!--Enable-->
 		<dict>
@@ -461,19 +461,19 @@
 			<key>Key</key><string>monitoringPeriod</string>
 			<key>Value</key><string></string>
 		</dict>
-		
-		
+
+
 		<!--Email Notifications-->
 		<!--SMTP Server Settings-->
 				<!--From Email-->
 				<dict>
 					<key>Key</key><string>smtpFromEmail</string>
-					<key>Value</key><string>khushkaran@me.com</string>
+					<key>Value</key><string></string>
 				</dict>
 				<!--To Email-->
 				<dict>
 					<key>Key</key><string>smtpToEmail</string>
-					<key>Value</key><string>khushkaran@me.com</string>
+					<key>Value</key><string></string>
 				</dict>
 				<!--SMTP Server-->
 				<dict>
@@ -493,12 +493,12 @@
 				<!--User Name-->
 				<dict>
 					<key>Key</key><string>smtpUserName</string>
-					<key>Value</key><string>khushkaran@me.com</string>
+					<key>Value</key><string></string>
 				</dict>
 				<!--Password-->
 				<dict>
 					<key>Key</key><string>smtpPassword</string>
-					<key>Value</key><string>yousmellbad</string>
+					<key>Value</key><string></string>
 			   </dict>
 			   <!--Enable SSL-->
 			   <dict>
@@ -508,7 +508,7 @@
 		<!--Email on Power Supply Change-->
 		<dict>
 			<key>Key</key><string>emailOnPower</string>
-			<key>Value</key><true/>
+			<key>Value</key><false/>
 		</dict>
 		<!--Email on Remote Update of Settings-->
 		<dict>
@@ -523,10 +523,10 @@
 		<!--Email on Motion Detection-->
 		<dict>
 			<key>Key</key><string>emailOnAccelTrigger</string>
-			<key>Value</key><true/>
+			<key>Value</key><false/>
 		</dict>
-		
-		
+
+
 		<!--Motion Detection-->
 		<!--Sensitivity: 0.06 = Very High, 0.1 = High, 0.2 = Medium, 0.4 = Low, 0.6 = Very Low, please note tags <real></real> must be used with this setting-->
 		<dict>
@@ -543,8 +543,8 @@
 			<key>Key</key><string>locationUpdateFrequency</string>
 			<key>Value</key><real>2</real>
 		</dict>
-		
-		
+
+
 		<!--Power Management-->
 		<!--Please note that in this version, you must specify whether you want the iPad to dim or to sleep; for more information, please see http://www.kioskproapp.com/help.html#night_mode -->
 		<!--Enable Night Mode-->
@@ -556,29 +556,29 @@
 				<!--Sleep Pair 1: time_even number = wake, time_odd number = dim or sleep. -->
 				<dict>
 					<key>Key</key><string>time_0</string>
-					<key>Value</key><string>Daily 07:00</string>
+					<key>Value</key><string>Wake Friday 07:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_1</string>
-					<key>Value</key><string>Dim Daily 01:00</string>
+					<key>Value</key><string>Dim Friday 19:00</string>
 				</dict>
 				<!--Sleep Pair 2 -->
 				<dict>
 					<key>Key</key><string>time_2</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Wake Saturday 07:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_3</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Dim Saturday 19:00</string>
 				</dict>
 				<!--Sleep Pair 3 -->
 				<dict>
 					<key>Key</key><string>time_4</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Wake Sunday 07:00</string>
 				</dict>
 				<dict>
 					<key>Key</key><string>time_5</string>
-					<key>Value</key><string></string>
+					<key>Value</key><string>Dim Sunday 18:00</string>
 				</dict>
 				<!--Sleep Pair 4 -->
 				<dict>
@@ -624,7 +624,7 @@
 				<dict>
 					<key>Key</key><string>time_15</string>
 					<key>Value</key><string></string>
-				</dict>		
+				</dict>
 		<!--Reduce Brightness on Home Screen: 0 = Never, 30 = 30 sec, 60 = 1 min, 300 = 5 min, etc.-->
 		<dict>
 			<key>Key</key><string>reduceBrightnessTimeInterval</string>
@@ -634,8 +634,8 @@
 		<dict>
 			<key>Key</key><string>allowAutoLock</string>
 			<key>Value</key><false/>
-		</dict>	
-		
+		</dict>
+
 
 		<!--Volume: cannot be controlled currently by remote xml due to restrictions by Apple-->
 
@@ -645,8 +645,8 @@
 			<key>Key</key><string>manualControlOfBrightness</string>
 			<key>Value</key><real>1</real>
 		</dict>
-		
-		
+
+
 		<!--Settings Not Included In Menu -->
 		<!--special (no UI) setting to ON/OFF - disabling tel links in HTML-page
 			default value: true - allow disabling.-->
@@ -656,7 +656,7 @@
 			<key>Value</key>
 			<true/>
 		</dict>
-		<!-- special (no UI) setting to ON/OFF  - disabling the default callout shown when you touch and hold a touch target in HTML-page 
+		<!-- special (no UI) setting to ON/OFF  - disabling the default callout shown when you touch and hold a touch target in HTML-page
 			default value: true - allow disabling.-->
 		<dict>
 			<key>Key</key>
@@ -664,7 +664,7 @@
 			<key>Value</key>
 			<true/>
 		</dict>
-		
+
 	</array>
 </dict>
 </plist>
