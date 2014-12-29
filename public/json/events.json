@@ -1,50 +1,66 @@
 [
   {
-    "title": "International AKJ Smagam - Akhand Sri Paat Sahib",
-    "day": "MON",
-    "date": "14",
-    "month": "APR",
-    "year": "2014",
-    "event-details": "<span class='col-md-6'>Sri Akhand Paat Sahib Arambh</span><span class='col-md-4'>10:00</span>"
-  },
-  {
-    "title": "International AKJ Smagam - Akhand Sri Paat Sahib",
-    "day": "WED",
-    "date": "16",
-    "month": "APR",
-    "year": "2014",
-    "event-details": "<span class='col-md-6'>Sri Akhand Paat Sahib Bhog</span><span class='col-md-4'>17:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>until 21:00</span>"
-  },
-  {
-    "title": "International AKJ Smagam Day 4",
-    "day": "THU",
-    "date": "17",
-    "month": "APR",
-    "year": "2014",
-    "event-details": "<span class='col-md-6'>Asa Di Var Kirtan</span><span class='col-md-4'>06:00 - 10:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>17:30 - 21:00</span>"
-  },
-  {
-    "title": "International AKJ Smagam Day 5",
-    "day": "FRI",
-    "date": "18",
-    "month": "APR",
-    "year": "2014",
-    "event-details": "<span class='col-md-6'>Asa Di Var Kirtan</span><span class='col-md-4'>06:00 - 10:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>17:30 - 21:00</span>"
-  },
-  {
-    "title": "International AKJ Smagam Day 6",
-    "day": "SAT",
-    "date": "19",
-    "month": "APR",
-    "year": "2014",
-    "event-details": "<span class='col-md-6'>Asa Di Var Kirtan</span><span class='col-md-4'>06:00 - 10:00</span><br><span class='col-md-6'>Rehras Sahib &amp; Akhand Kirtan</span><span class='col-md-4'>17:30 - 00:00</span>"
-  },
-  {
-    "title": "International AKJ Smagam Day 7",
+    "title": "International AKJ Smagam - Day 7",
     "day": "SUN",
-    "date": "20",
+    "date": "05",
     "month": "APR",
-    "year": "2014",
-    "event-details": "<span class='col-md-6'>Morning Kirtan</span><span class='col-md-4'>11:30 - 13:30</span><br><span class='col-md-6'>Rehansbhai Kirtan</span><span class='col-md-4'>19:00 - 5:00</span>"
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>Seventh day of the Smagam, more details coming soon!</span><span class='col-md-4'>TBA</span>"
+  },
+  {
+    "title": "International AKJ Smagam - Day 6",
+    "day": "SAT",
+    "date": "04",
+    "month": "APR",
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>Sixth day of the Smagam, more details coming soon!</span><span class='col-md-4'>TBA</span>"
+  },
+  {
+    "title": "International AKJ Smagam - Day 5",
+    "day": "FRI",
+    "date": "03",
+    "month": "APR",
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>Fifth day of the Smagam, more details coming soon!</span><span class='col-md-4'>TBA</span>"
+  },
+  {
+    "title": "International AKJ Smagam - Day 4",
+    "day": "THU",
+    "date": "02",
+    "month": "APR",
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>Fourth day of the Smagam, more details coming soon!</span><span class='col-md-4'>TBA</span>"
+  },
+  {
+    "title": "International AKJ Smagam - Day 3",
+    "day": "WED",
+    "date": "01",
+    "month": "APR",
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>Third day of the Smagam, more details coming soon!</span><span class='col-md-4'>TBA</span>"
+  },
+  {
+    "title": "International AKJ Smagam - Day 2",
+    "day": "TUE",
+    "date": "31",
+    "month": "MAR",
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>Second day of the Smagam, more details coming soon!</span><span class='col-md-4'>TBA</span>"
+  },
+  {
+    "title": "International AKJ Smagam - Day 1",
+    "day": "MON",
+    "date": "30",
+    "month": "MAR",
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>First day of the Smagam, more details coming soon!</span><span class='col-md-4'>TBA</span>"
+  },
+  {
+    "title": "Sikhi Camp",
+    "day": "SAT",
+    "date": "03",
+    "month": "JAN",
+    "year": "2015",
+    "event-details": "<span class='col-md-6'>Welcome &amp; Guess Who Quiz</span><span class='col-md-4'>13:30 - 14:00</span><span class='col-md-6'>Youth Lecture</span><span class='col-md-4'>14:00 - 15:00</span><span class='col-md-6'>Gurbani Kanth (1:1)</span><span class='col-md-4'>15:00 - 16:00</span><span class='col-md-6'>Break</span><span class='col-md-4'>16:00 - 17:00</span><span class='col-md-6'>Story Time &amp; Simran</span><span class='col-md-4'>17:00 - 17:45</span><span class='col-md-6'>Rehras By Youth</span><span class='col-md-4'>17:45 - 18:30</span><span class='col-md-6'>Akhand Kirtan</span><span class='col-md-4'>18:30 - 20:00</span><span class='col-md-6'>Hot Chocolate &amp; Cakes</span><span class='col-md-4'>20:00</span>"
   }
 ]
